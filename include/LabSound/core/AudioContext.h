@@ -9,7 +9,7 @@
 #define AudioContext_h
 
 #include "LabSound/core/ConcurrentQueue.h"
-#include "labSound/core/AudioScheduledSourceNode.h"
+#include "LabSound/core/AudioScheduledSourceNode.h"
 
 #include <set>
 #include <atomic>

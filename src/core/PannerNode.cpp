@@ -38,7 +38,7 @@
 #include "internal/EqualPowerPanner.h"
 #include "internal/HRTFPanner.h"
 
-#include <wtf/MathExtras.h>
+#include <WTF/MathExtras.h>
 
 using namespace std;
 
@@ -46,7 +46,7 @@ namespace WebCore {
 
 static void fixNANs(double &x)
 {
-    if (isnan(x) || isinf(x))
+    if (std::isnan(x) || std::isinf(x))
         x = 0.0;
 }
 

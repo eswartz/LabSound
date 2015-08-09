@@ -27,7 +27,7 @@
  */
 
 #include "internal/Cone.h"
-#include <wtf/MathExtras.h>
+#include <WTF/MathExtras.h>
 
 namespace WebCore {
 

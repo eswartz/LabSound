@@ -35,7 +35,7 @@
 #endif
 
 #include <complex>
-#include <wtf/MathExtras.h>
+#include <WTF/MathExtras.h>
 
 namespace WebCore {
     
